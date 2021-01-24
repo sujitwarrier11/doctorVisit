@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Test</title>
+    <script src="/static/signalr.js"></script>
+    <script defer>
+                               let  objConnection = new signalR.HubConnectionBuilder()
+      .withUrl(`/mediHub`)
+      .build();
+    objConnection.start().then(() => {
+      console.log('started');
+    });
+    </script>
+    </head>
+        <body>
+            Test
+        </body>
+</html> 

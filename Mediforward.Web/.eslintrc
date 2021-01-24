@@ -1,0 +1,65 @@
+{
+  "parser": "babel-eslint",
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "prettier",
+    "plugin:prettier/recommended",
+    "prettier/react"
+  ],
+  "plugins": ["import", "react-hooks", "prettier", "react"],
+  "parserOptions": {
+    "ecmaVersion": 8,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {
+        "alias": {
+          "@root": "."
+          // "react": "./node_modules/@domus/domus-ui/node_modules/react",
+          // "react-dom": "./node_modules/@domus/domus-ui/node_modules/react-dom"
+        }
+      }
+    }
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "react/prefer-stateless-function": [2, { "ignorePureComponents": true }],
+    "react/forbid-prop-types": [0, { "forbid": [] }],
+    "react/jsx-closing-bracket-location": [
+      1,
+      { "selfClosing": "tag-aligned", "nonEmpty": "after-props" }
+    ],
+    "react/jsx-props-no-spreading": [0, 0],
+    "react/self-closing-comp": [
+      "warn",
+      {
+        "component": true,
+        "html": false
+      }
+    ],
+    "import/extensions": [1, "never", { "svg": "always" }],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": true,
+        "optionalDependencies": false,
+        "peerDependencies": false
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
+  },
+  "env": {
+    "browser": true,
+    "jest": true,
+    "node": true,
+    "es6": true
+  }
+}

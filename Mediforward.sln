@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediforward.Service", "Mediforward.Service\Mediforward.Service.csproj", "{5E1244E2-C803-4C8E-A762-01AF46BA413E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediforward.Data", "Mediforward.Data\Mediforward.Data.csproj", "{BD3D270D-D409-4951-BBE9-ABD2E536BEC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediforward.Common", "Mediforward.Common\Mediforward.Common.csproj", "{34839F05-0FDB-449A-AC78-12BC4FE59CCB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediforward.Business", "Mediforward.Business\Mediforward.Business.csproj", "{EB7078E9-9EAB-4953-866D-D0124A1386F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediforward.Models", "Mediforward.Models\Mediforward.Models.csproj", "{CDA01343-1EB3-4C34-83AC-B7214DEF05C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mediforward.Common.Test", "Mediforward.Common.Test\Mediforward.Common.Test.csproj", "{DE04D7FE-3F81-40C3-9FF8-00D7A9AF1E6A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E1244E2-C803-4C8E-A762-01AF46BA413E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E1244E2-C803-4C8E-A762-01AF46BA413E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E1244E2-C803-4C8E-A762-01AF46BA413E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E1244E2-C803-4C8E-A762-01AF46BA413E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD3D270D-D409-4951-BBE9-ABD2E536BEC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD3D270D-D409-4951-BBE9-ABD2E536BEC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD3D270D-D409-4951-BBE9-ABD2E536BEC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD3D270D-D409-4951-BBE9-ABD2E536BEC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34839F05-0FDB-449A-AC78-12BC4FE59CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34839F05-0FDB-449A-AC78-12BC4FE59CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34839F05-0FDB-449A-AC78-12BC4FE59CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34839F05-0FDB-449A-AC78-12BC4FE59CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB7078E9-9EAB-4953-866D-D0124A1386F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB7078E9-9EAB-4953-866D-D0124A1386F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB7078E9-9EAB-4953-866D-D0124A1386F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB7078E9-9EAB-4953-866D-D0124A1386F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA01343-1EB3-4C34-83AC-B7214DEF05C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA01343-1EB3-4C34-83AC-B7214DEF05C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA01343-1EB3-4C34-83AC-B7214DEF05C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA01343-1EB3-4C34-83AC-B7214DEF05C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE04D7FE-3F81-40C3-9FF8-00D7A9AF1E6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE04D7FE-3F81-40C3-9FF8-00D7A9AF1E6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE04D7FE-3F81-40C3-9FF8-00D7A9AF1E6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE04D7FE-3F81-40C3-9FF8-00D7A9AF1E6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4334C51-1CD5-4E56-9946-D9DA3C87FA7B}
+	EndGlobalSection
+EndGlobal

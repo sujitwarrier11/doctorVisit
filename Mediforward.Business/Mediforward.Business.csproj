@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mediforward.Common\Mediforward.Common.csproj" />
+    <ProjectReference Include="..\Mediforward.Models\Mediforward.Models.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+redux-persist failed to create sync storage. falling back to noop storage.
+(node:22008) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+Application has thrown an uncaught exception and is terminated:
+Error: listen EACCES: permission denied 0.0.0.0:5006
+    at Server.setupListenHandle [as _listen2] (net.js:1296:21)
+    at listenInCluster (net.js:1361:12)
+    at Server.listen (net.js:1447:7)
+    at Function.listen (D:\Projects\mediforward_sujit\Mediforward.Web\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (D:\Projects\mediforward_sujit\Mediforward.Web\server.js:40:5)
+    at Module._compile (internal/modules/cjs/loader.js:1137:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1157:10)
+    at Module.load (internal/modules/cjs/loader.js:985:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:878:14)
+    at Module.require (internal/modules/cjs/loader.js:1025:19)
